@@ -1,0 +1,24 @@
+{
+  "id": "7645cf8f-3753-4358-9f9a-934a89a2fac9",
+  "version": "2.0",
+  "name": "primeiro exemplo",
+  "url": "https://seubarriga.wcaquino.me",
+  "tests": [],
+  "suites": [{
+    "id": "a1d05356-0205-4598-a387-3bc57cd1d2f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "e43f417a-3695-4d6f-97e9-9f6d7a0248da",
+    "name": "Seu Barriga Site",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://seubarriga.wcaquino.me/"],
+  "plugins": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "7645cf8f-3753-4358-9f9a-934a89a2fac9",
+  "version": "2.0",
+  "name": "primeiro exemplo",
+  "url": "https://seubarriga.wcaquino.me/login",
+  "tests": [{
+    "id": "e2ee0994-698b-4a15-870d-7a4cf15ff993",
+    "name": "login",
+    "commands": [{
+      "id": "04ca73e1-1628-4410-8a52-07d12eadf3e3",
+      "comment": "",
+      "command": "open",
+      "target": "https://seubarriga.wcaquino.me/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56cd2aa6-4722-4a92-8d6c-16cf186e71d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "593x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7eef033-f19a-416a-a492-243732355784",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e834cd7b-8a65-4ddc-9e76-7d1e94a68d56",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bruno10tere@gmail.com"
+    }, {
+      "id": "1404ea41-b77f-4e95-a6e8-ac604eaf40fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=senha", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "1a49e4c6-506f-4222-bc1c-4f9b3ab86bc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a1d05356-0205-4598-a387-3bc57cd1d2f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "e43f417a-3695-4d6f-97e9-9f6d7a0248da",
+    "name": "Seu Barriga Site",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://seubarriga.wcaquino.me/"],
+  "plugins": []
+}

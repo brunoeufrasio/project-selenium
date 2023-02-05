@@ -1,0 +1,297 @@
+{
+  "id": "7645cf8f-3753-4358-9f9a-934a89a2fac9",
+  "version": "2.0",
+  "name": "primeiro exemplo",
+  "url": "https://seubarriga.wcaquino.me/",
+  "tests": [{
+    "id": "e2ee0994-698b-4a15-870d-7a4cf15ff993",
+    "name": "login",
+    "commands": [{
+      "id": "04ca73e1-1628-4410-8a52-07d12eadf3e3",
+      "comment": "",
+      "command": "open",
+      "target": "https://seubarriga.wcaquino.me/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56cd2aa6-4722-4a92-8d6c-16cf186e71d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "593x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7eef033-f19a-416a-a492-243732355784",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e834cd7b-8a65-4ddc-9e76-7d1e94a68d56",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "bruno10tere@gmail.com"
+    }, {
+      "id": "1404ea41-b77f-4e95-a6e8-ac604eaf40fa",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=senha", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "1a49e4c6-506f-4222-bc1c-4f9b3ab86bc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "903ef9bf-1177-4b72-a19d-1dac167dd2d0",
+    "name": "adicionar",
+    "commands": []
+  }, {
+    "id": "d9cb005e-c488-4d05-816c-6f4d95adc192",
+    "name": "editar",
+    "commands": [{
+      "id": "c06205a9-fc38-4ad7-8d38-fa3ba07ef5b6",
+      "comment": "",
+      "command": "open",
+      "target": "https://seubarriga.wcaquino.me/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0321575-67a1-46d6-b254-69682787cfba",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "593x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a78269a-7b9d-4203-83c5-ef170945e77c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contas",
+      "targets": [
+        ["linkText=Contas", "linkText"],
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Contas')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contas ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6aeba7ff-9068-437d-adf5-a2de787a175c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Listar",
+      "targets": [
+        ["linkText=Listar", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Listar')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contas')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Listar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6faf8165-5864-417f-aa12-b668e8f84e70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-edit",
+      "targets": [
+        ["css=.glyphicon-edit", "css:finder"],
+        ["xpath=//table[@id='tabelaContas']/tbody/tr/td[2]/a/span", "xpath:idRelative"],
+        ["xpath=//td[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "791a314a-62ad-407e-98a8-0ef5768699fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d085ac8-e76a-4e0b-9142-a2a555981a2a",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "conta adicionada 1"
+    }, {
+      "id": "2ff94eee-3ea3-4980-ac94-b57c145467ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Salvar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10866bd-19cf-46ef-baef-6421a8764c43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//body/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Conta alterada com sucesso!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46fe9c7a-8323-4d66-9f87-6b8f0715638e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//body/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Conta alterada com sucesso!')]", "xpath:innerText"]
+      ],
+      "value": "Conta alterada com sucesso!"
+    }]
+  }, {
+    "id": "3b5dedd6-b7d3-4b1f-9eeb-8e41c7992b0c",
+    "name": "excluir",
+    "commands": [{
+      "id": "4f6faf8d-c059-4f9b-b4d9-58655832ba56",
+      "comment": "",
+      "command": "open",
+      "target": "https://seubarriga.wcaquino.me/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bec64a06-3c4c-4f4a-950c-0e70b9f5e2dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "593x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d8d4fec-5a9a-4b07-b885-23a6b75b37d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Contas",
+      "targets": [
+        ["linkText=Contas", "linkText"],
+        ["css=.dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Contas')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[3]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Contas ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "997ee1e1-cb71-4998-a389-c4218eb37f11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Listar",
+      "targets": [
+        ["linkText=Listar", "linkText"],
+        ["css=.dropdown-menu > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Listar')]", "xpath:link"],
+        ["xpath=//div[@id='navbar']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/contas')]", "xpath:href"],
+        ["xpath=//li[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Listar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7f1fdbd-d1f6-4337-aa0c-cd85b3256426",
+      "comment": "",
+      "command": "click",
+      "target": "css=.glyphicon-remove-circle",
+      "targets": [
+        ["css=.glyphicon-remove-circle", "css:finder"],
+        ["xpath=//table[@id='tabelaContas']/tbody/tr/td[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f43bf20-03ab-4183-a282-626f166557e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//body/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Conta removida com sucesso!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e10de501-2b66-4798-8019-4739ac27f09b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//body/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Conta removida com sucesso!')]", "xpath:innerText"]
+      ],
+      "value": "Conta removida com sucesso!"
+    }]
+  }],
+  "suites": [{
+    "id": "a1d05356-0205-4598-a387-3bc57cd1d2f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "e43f417a-3695-4d6f-97e9-9f6d7a0248da",
+    "name": "Seu Barriga Site",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://seubarriga.wcaquino.me/"],
+  "plugins": []
+}
